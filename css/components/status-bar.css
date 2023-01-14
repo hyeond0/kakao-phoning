@@ -5,6 +5,8 @@
   padding: 20px 20px 20px 40px;
   position: sticky;
   top: 0;
+  background: inherit;
+  z-index: 1;
 }
 
 .status-bar__column span {
