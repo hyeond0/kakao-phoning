@@ -17,6 +17,7 @@
 @import "screens/photo.css";
 @import "screens/settings.css";
 @import "screens/more.css";
+@import "screens/find.css";
 
 body {
   font-family: "Noto Sans KR", "Open Sans", sans-serif;
