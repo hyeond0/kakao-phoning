@@ -4,6 +4,8 @@
 
 23/01/02 ~ 23/01/15
 
+https://hyeond0.github.io/kokoa-project/
+
 현재 제작중..
 
 노마드 코더 코코아톡 강의 졸업과제
