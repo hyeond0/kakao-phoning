@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Phoning</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>5:16</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fa-solid fa-signal"></i>
+        <i class="fa-solid fa-wifi"></i>
+        <i class="fa-solid fa-battery-quarter"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome!</h1>
+      <div>
+        <p class="welcome-header__text">
+          Phoning에 오신 것을 환영해요.<img
+            src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/325/party-popper_1f389.png"
+            alt=""
+          />
+        </p>
+        <p class="welcome-header__text">
+          아이디와 비밀번호를 입력해 주세요.<img
+            src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/325/winking-face_1f609.png"
+            alt=""
+          />
+        </p>
+      </div>
+    </header>
+
+    <form action="friends.html" method="get" class="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="Password" />
+      <input type="submit" value="로그인/회원가입" />
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/4ad1008042.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
