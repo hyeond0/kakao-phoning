@@ -12,11 +12,12 @@
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/photo.css";
 
 body {
   font-family: "Noto Sans KR", "Open Sans", sans-serif;
   font-weight: 700;
-  height: 500vh;
+  height: 120vh;
   background-image: url("backgrounds/bg-aqua.png");
   background-size: 100vw 100vh;
 }

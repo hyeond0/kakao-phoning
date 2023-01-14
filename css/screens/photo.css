@@ -1,0 +1,33 @@
+.photo-screen__title {
+  font-size: 25px;
+  padding: 0px var(--horizontal-space);
+  margin: 15px 0px;
+  font-weight: 600;
+}
+
+.photo-screen {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo-screen__object {
+  display: flex;
+  flex-direction: column;
+}
+.photo-screen__object > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.photo-screen__object span {
+  margin-bottom: 15px;
+}
+
+.photo-screen__object span > img {
+  width: 15px;
+  height: 15px;
+}
