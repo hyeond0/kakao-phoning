@@ -1,10 +1,10 @@
 .user-component {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.user-component,
 .user-component__column {
   display: flex;
   align-items: center;
@@ -21,6 +21,7 @@
   align-items: center;
   margin-right: 20px;
 }
+
 .user-component__avatar {
   width: 60px;
   height: 60px;
@@ -37,12 +38,12 @@
 }
 
 .user-component__img--sm {
-  width: 70px;
-  height: 70px;
-}
-.user-component__avatar--sm {
   width: 60px;
   height: 60px;
+}
+.user-component__avatar--sm {
+  width: 50px;
+  height: 50px;
 }
 
 .user-component__title {
@@ -65,15 +66,32 @@
   width: 18px;
   height: 18px;
 }
+
+.user-component__time {
+  color: var(--gray);
+  margin-bottom: 10px;
+  display: block;
+}
+
+.chat_title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.chat_subtitle {
+  color: black;
+  font-weight: 500;
+}
+.chat_subtitle img {
+  width: 20px;
+  height: 20px;
+  margin: 0px 1px;
+}
 .user-component__column:last-child {
+  font-weight: 600;
   color: var(--gray);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-}
-
-.user-component__time {
-  color: var(--gray);
-  margin-bottom: 8px;
-  display: block;
+  justify-content: center;
 }

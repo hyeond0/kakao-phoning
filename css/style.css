@@ -7,6 +7,7 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-components.css";
+@import "components/badge.css";
 
 /* screens */
 @import "screens/login.css";
@@ -18,4 +19,8 @@ body {
   height: 500vh;
   background-image: url("backgrounds/bg-aqua.png");
   background-size: 100vw 100vh;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
