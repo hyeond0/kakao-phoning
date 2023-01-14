@@ -8,11 +8,13 @@
 @import "components/screen-header.css";
 @import "components/user-components.css";
 @import "components/badge.css";
+@import "components/alt-header.css";
 
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/photo.css";
+@import "screens/settings.css";
 
 body {
   font-family: "Noto Sans KR", "Open Sans", sans-serif;

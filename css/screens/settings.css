@@ -1,0 +1,40 @@
+.settings-profile__title {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.settings-profile__modify {
+  color: #3434e6fa;
+  margin-bottom: 30px;
+}
+
+.settings-list {
+  font-size: 15px;
+  margin: 40px 0px;
+  color: var(--gray);
+}
+.settings-setting {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 25px 0px;
+}
+
+.settings-setting span:first-child {
+  color: black;
+}
+
+.settings-setting span > i {
+  margin-left: 10px;
+}
+.settings-setting span:last-child {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.settings-setting a {
+  color: red;
+  font-size: 17px;
+  font-weight: 700;
+}
