@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
       body {
-        background-image: url("css/backgrounds/bg-purple.png");
+        background-image: url("css/backgrounds/bg-green.png");
       }
     </style>
     <title>Phoning - Photos</title>
@@ -54,7 +54,7 @@
             />
           </div>
           <div class="user-component__text">
-            <h4 class="user-component__title">현도</h4>
+            <h4 class="user-component__title more-title">현도</h4>
             <span class="user-component__subtitle">
               <a href="https://github.com/hyeond0/"
                 >https://github.com/hyeond0/</a
@@ -63,40 +63,73 @@
           </div>
         </div>
         <div class="user-component__column">
-          <i class="fa-solid fa-message fa-xl"></i>
+          <div class="icon-row__icon more__icons">
+            <i class="fa-solid fa-message fa-xl"></i>
+          </div>
         </div>
       </div>
 
       <div class="icon-row">
         <div class="icon-row__icon">
-          <i class="fa-solid fa-calendar"></i>
+          <div class="more__icons">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <span>계정</span>
+        </div>
+        <div class="icon-row__icon">
+          <div class="more__icons">
+            <i class="fa-regular fa-calendar"></i>
+          </div>
           <span>달력</span>
         </div>
         <div class="icon-row__icon">
-          <i class="fa-regular fa-face-smile"></i>
+          <div class="more__icons">
+            <i class="fa-regular fa-face-smile"></i>
+          </div>
           <span>이모티콘</span>
         </div>
         <div class="icon-row__icon">
-          <i class="fa-solid fa-paint-roller"></i><span>테마</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fa-solid fa-file-invoice-dollar"></i><span>계좌</span>
+          <div class="more__icons">
+            <i class="fa-solid fa-palette"></i>
+          </div>
+          <span>테마</span>
         </div>
       </div>
       <div class="more-suggestions">
-        <h4 class="more-suggestions__title">추천</h4>
+        <h4 class="more-suggestions__title">노래</h4>
         <div class="more-suggestions__icons">
           <div class="more-suggestions__icon">
             <div class="more-suggestions__icon-image">
-              <i class="fa-solid fa-quote-left fa-xl"></i>
+              <a href="https://www.youtube.com/watch?v=11cta61wi0g">
+                <img
+                  src="https://image.bugsm.co.kr/album/images/500/40780/4078016.jpg"
+                  alt=""
+                />
+                <span class="more-suggestions__icon-text">Hype boy</span>
+              </a>
             </div>
-            <span class="more-suggestions__icon-text">Kokoa Story</span>
           </div>
           <div class="more-suggestions__icon">
             <div class="more-suggestions__icon-image">
-              <i class="fa-solid fa-gamepad fa-xl"></i>
+              <a href="https://www.youtube.com/watch?v=pSUydWEqKwE">
+                <img
+                  src="https://w.namu.la/s/918f8002209be71b1ede92f3986ceb3673a10cf683bc28dacc242aa134aa1c610500c515e1b4591126a68e0bb10c16ced2e7d77bbad4dac8eeb740ad81cf45bc97fe89fb3008d301f8862d880f74460980c6b0475b09e1e2518d180e0f688b3404f8f00e6fe47e2c99eadd6432cca866"
+                  alt=""
+                />
+                <span class="more-suggestions__icon-text">Ditto</span>
+              </a>
             </div>
-            <span class="more-suggestions__icon-text">Kokoa Game</span>
+          </div>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <a href="https://www.youtube.com/watch?v=_ZAgIHmHLdc">
+                <img
+                  src="https://w.namu.la/s/6aa55fa851df9b94d4efd286dd2379c0c16daaccf1342b9ce41f48a2c5a3178463b0b7e997fb4ef3002ed45b6cb50b12f9150f14d3cc7e0b9c8f6a9655f10f0e9dc581b5e642d38bde04adf78519354522dc9b1bc3e833e5c8615b50ae81445990e52a99ff8f27313ffaaf87481ee505"
+                  alt=""
+                />
+                <span class="more-suggestions__icon-text">OMG</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -126,6 +159,12 @@
         </li>
       </ul>
     </nav>
+
+    <div class="no-mobile">
+      <div>
+        <span>화면 크기를 줄여주세요!</span>
+      </div>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/95f398b1ca.js"

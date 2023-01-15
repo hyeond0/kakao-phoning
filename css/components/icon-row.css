@@ -9,11 +9,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: all 1s;
+}
+
+.icon-row__icon:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
 }
 
 .icon-row__icon i {
-  font-size: 35px;
-  opacity: 0.75;
+  font-size: 25px;
 }
 
 .icon-row__icon span {

@@ -90,7 +90,6 @@
 .message__author {
   display: block;
   font-size: 15px;
-  /* opacity; */
   font-weight: 500;
   margin-bottom: 5px;
 }
@@ -163,8 +162,8 @@
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: 0;
-  top: 3px;
+  right: 0px;
+  top: 4px;
 }
 
 .reply__column:last-child > i {
@@ -176,11 +175,13 @@
   opacity: 1;
 }
 .reply__column button {
-  background-color: var(--yellow);
+  background: #99e648;
   border: none;
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  font-size: 15px;
+  margin-right: 5px;
 }
 
 .reply .reply__column:first-child,
