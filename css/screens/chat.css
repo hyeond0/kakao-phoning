@@ -58,6 +58,7 @@
 
 .chat-screen {
   height: 150vh;
+  background-image: url("../backgrounds/bg-yellow.png");
 }
 
 .chat__timestamp {

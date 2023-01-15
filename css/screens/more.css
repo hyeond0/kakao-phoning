@@ -1,3 +1,6 @@
+.more-screen-body {
+  background-image: url("../backgrounds/bg-green.png");
+}
 .more-screen .icon-row {
   margin-top: 35px;
 }

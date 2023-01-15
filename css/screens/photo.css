@@ -1,3 +1,7 @@
+.photo-screen__body {
+  background-image: url("../backgrounds/bg-purple.png");
+}
+
 .photo-screen__title {
   font-size: 25px;
   padding: 0px var(--horizontal-space);

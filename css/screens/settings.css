@@ -1,3 +1,6 @@
+.setting-screen {
+  background-image: url("../backgrounds/bg-blue.png");
+}
 .settings-profile__title {
   font-size: 35px;
   margin-bottom: 20px;
