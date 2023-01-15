@@ -76,7 +76,7 @@
   margin-bottom: 25px;
 }
 
-.message-row img {
+.message-row img:not(.chat_image__message) {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -97,7 +97,7 @@
 .message__bubble {
   background: linear-gradient(white, 60%, #95c9ff);
   border: 1px solid black;
-  padding: 13px 13px;
+  padding: 8px 13px;
   font-size: 18px;
   font-weight: 500;
   border-radius: 15px;
@@ -127,6 +127,10 @@
   flex-direction: row-reverse;
 }
 
+.chat_image__message {
+  width: 25px;
+  height: 25px;
+}
 .reply {
   position: fixed;
   bottom: 0;

@@ -31,3 +31,19 @@
   width: 15px;
   height: 15px;
 }
+
+.photo-screen__new {
+  display: flex;
+}
+.red__dot {
+  background-color: tomato;
+  width: 7px;
+  height: 7px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  left: 0px;
+}
+
+.red__dot__x {
+  background-color: inherit;
+}

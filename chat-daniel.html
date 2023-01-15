@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-image: url("css/backgrounds/bg-yellow.png");
+      }
+    </style>
+    <title>Phoning - chatting with daniel</title>
+  </head>
+
+  <body class="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>5:16</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fa-solid fa-signal"></i>
+        <i class="fa-solid fa-wifi"></i>
+        <i class="fa-solid fa-battery-quarter"></i>
+      </div>
+    </div>
+
+    <header class="chat-header">
+      <div class="chat-header__column">
+        <div>
+          <a href="chats.html"><i class="fa-solid fa-angle-left fa-xl"></i></a>
+        </div>
+        <img
+          src="https://pbs.twimg.com/media/FYcO5J3UcAAgjG5?format=jpg&name=medium"
+          alt=""
+          class="user-component__avatar user-component__avatar--sm"
+        />
+        <h1 class="chat-header__title">다니엘</h1>
+      </div>
+      <div class="chat-header__column">
+        <div>
+          <i class="fa-solid fa-ellipsis-vertical fa-xl"></i>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">2023년 1월 12일 (토)</div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble"
+              >인터넷 찾아보면 채팅 미리보기는 나오는데..</span
+            >
+            <span class="message__time">11:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="https://pbs.twimg.com/media/FYcO5J3UcAAgjG5?format=jpg&name=medium"
+          alt=""
+        />
+        <div class="message-row__content">
+          <span class="message__author">다니엘</span>
+          <div class="message__info">
+            <p class="message__bubble">채팅 내용은 유료라서 볼 수가 없어서..</p>
+            <span class="message__time">11:28</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble"
+              >무슨 내용을 넣어야 할지 모르겠어요..</span
+            >
+            <span class="message__time">11:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="https://pbs.twimg.com/media/FYcO5J3UcAAgjG5?format=jpg&name=medium"
+          alt=""
+        />
+        <div class="message-row__content">
+          <span class="message__author">다니엘</span>
+          <div class="message__info">
+            <p class="message__bubble">ㅠㅠ</p>
+            <span class="message__time">11:48</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="https://pbs.twimg.com/media/FYcO5J3UcAAgjG5?format=jpg&name=medium"
+          alt=""
+        />
+        <div class="message-row__content">
+          <span class="message__author">다니엘</span>
+          <div class="message__info">
+            <p class="message__bubble">
+              <img
+                class="chat_image chat_image__message"
+                src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/325/sparkling-heart_1f496.png"
+                alt=""
+              />
+            </p>
+            <span class="message__time">12:16</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply" action="">
+      <div class="reply__column">
+        <i class="fa-solid fa-plus fa-xl"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="메시지를 입력해 주세요." />
+        <i class="fa-regular fa-face-smile"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div class="no-mobile">
+      <div>
+        <span>화면 크기를 줄여주세요!</span>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/95f398b1ca.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -5,16 +5,21 @@
   /* width: 60%; */
   box-sizing: border-box;
   background: var(--green);
-  padding: 15px 0px;
+  padding: 12px 0px;
   border-radius: 30px;
   border: 2px solid black;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 400;
   margin: -15px 60px 20px 60px;
 }
 
 .friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-display-link img {
+  width: 20px;
+  height: 20px;
 }
 
 .friends-screen {
