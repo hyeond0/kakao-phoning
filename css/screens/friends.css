@@ -1,5 +1,6 @@
 .friends-screen__body {
   background-image: url("../backgrounds/bg-aqua.png");
+  position: relative;
 }
 .friends-display-link {
   text-align: center;
@@ -40,4 +41,26 @@
   justify-content: space-between;
   align-items: center;
   color: var(--gray);
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.splash-screen {
+  background: no-repeat url("../backgrounds/splash.jpg");
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  top: 0;
+  animation: hideSplashScreen 0.5s ease-in-out forwards;
+  animation-delay: 1.5s;
+  z-index: 99;
 }
