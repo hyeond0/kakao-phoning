@@ -17,6 +17,7 @@
 .photo-screen__object {
   display: flex;
   flex-direction: column;
+  transition: all 0.5s ease-in-out;
 }
 .photo-screen__object > img {
   width: 200px;
@@ -36,6 +37,10 @@
   height: 15px;
 }
 
+.photo-screen__object:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
 .photo-screen__new {
   display: flex;
 }

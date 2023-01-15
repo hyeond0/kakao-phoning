@@ -24,4 +24,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.screen-header__icons__icon:hover {
+  transform: translateY(-5px);
 }

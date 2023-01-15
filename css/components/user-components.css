@@ -21,6 +21,9 @@
   align-items: center;
   margin-right: 20px;
 }
+.user-component__img--sm:hover {
+  cursor: pointer;
+}
 
 .user-component__avatar {
   width: 60px;
