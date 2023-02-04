@@ -1,4 +1,4 @@
-# Kokoa Project
+# kakao-phoning
 
 ## 노마드 10주 스터디 진행중!
 
